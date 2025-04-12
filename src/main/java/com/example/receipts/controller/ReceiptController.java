@@ -29,7 +29,7 @@ public class ReceiptController {
     public ResponseEntity<Map<String, String>> processReceipt(@RequestBody Receipt receipt) {
         //A JSON object containing the receiptId
         Map<String, String> response = new HashMap<>();
-        response.put("Id", receiptService.addReceipt(receipt));
+        response.put("Id", receiptService.CreateReceiptID(receipt));
         return ResponseEntity.status(200).body(response);
     }
 
