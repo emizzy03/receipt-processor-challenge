@@ -1,3 +1,8 @@
+# How to run the program
+Use "docker build -t receipt-app ."  for the dockerizing Spring boot setup.
+
+Run the program using "docker run -p 8080:8080 receipt-app".
+
 # Receipt Processor
 
 Build a webservice that fulfils the documented API. The API is described below. A formal definition is provided 
