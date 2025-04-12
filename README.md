@@ -1,3 +1,7 @@
+# How to run the program
+use "docker build -t receipt-app." to for the docker setup
+run the program using "docker run -p 8080:8080 receipt-app".
+
 # Receipt Processor
 
 Build a webservice that fulfils the documented API. The API is described below. A formal definition is provided 
