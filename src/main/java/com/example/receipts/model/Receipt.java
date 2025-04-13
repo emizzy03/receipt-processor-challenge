@@ -6,10 +6,10 @@ public class Receipt {
 
     private String receiptId;
     private String retailer;
-    private  String  purchaseDate;
-    private  String purchaseTime;
-    private  Double total;
-    private  List<Item> items;
+    private String purchaseDate;
+    private String purchaseTime;
+    private Double total;
+    private List<Item> items;
 
     public String getReceiptId() {
         return receiptId;
@@ -36,5 +36,4 @@ public class Receipt {
         return items;
     }
 
-    
 }

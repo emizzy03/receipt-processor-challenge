@@ -1,6 +1,7 @@
 package com.example.receipts.model;
 
 public class Item {
+
     private final String shortDescription;
     private final Double price;
 
