@@ -4,12 +4,12 @@ import java.util.List;
 
 public class Receipt {
 
-    public String receiptId;
-    public String retailer;
-    public String  purchaseDate;
-    public String purchaseTime;
-    public Double total;
-    public List<Item> items;
+    private String receiptId;
+    private String retailer;
+    private  String  purchaseDate;
+    private  String purchaseTime;
+    private  Double total;
+    private  List<Item> items;
 
     public String getReceiptId() {
         return receiptId;

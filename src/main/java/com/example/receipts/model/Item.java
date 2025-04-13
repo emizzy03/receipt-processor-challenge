@@ -1,8 +1,8 @@
 package com.example.receipts.model;
 
 public class Item {
-    public String shortDescription;
-    public Double price;
+    private final String shortDescription;
+    private final Double price;
 
     public Item(String shortDescription, Double price) {
         this.shortDescription = shortDescription;
